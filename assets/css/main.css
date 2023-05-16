@@ -1386,7 +1386,7 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
-			#header .content .inner {
+			#header .content .inner a {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1476,7 +1476,6 @@ input, select, textarea {
 				width: 1px;
 				height: calc(3.5rem + -55px);
 				background: #ffffff;
-
 		}
 
 		body.is-article-visible #header {
