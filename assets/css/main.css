@@ -1467,6 +1467,18 @@ input, select, textarea {
 			border-left: 0;
 		}
 
+		#header a:before {
+			content: '';
+				display: block;
+				position: absolute;
+				top: calc(-3.5rem - 1px);
+				left: calc(50% - 1px);
+				width: 1px;
+				height: calc(3.5rem + -55px);
+				background: #ffffff;
+
+		}
+
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
